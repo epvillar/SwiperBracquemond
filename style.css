@@ -1,0 +1,312 @@
+
+
+html, body {
+    height: 100%;
+    background-color: antiquewhite;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 58px;
+    line-height: 85px;
+    color: green;
+  }
+  
+  h2 {
+    font-size: 45px;
+    line-height: 67px;
+    font-weight: 400;
+  }
+  
+  h3 {
+    font-size: 36px;
+    line-height: 55px;
+    font-weight: 400;
+  }
+  
+  p {
+    font-size: 22px;
+    line-height: 36px;
+    color: black;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: #E36262;
+  }
+  
+  /* Header */
+  #main-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem 4rem;
+  }
+  
+  #main-header p {
+    max-width: 90vw;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  
+  #main-header {
+    background-image: url("img/brest.jpg");
+    background-size: cover;
+  }
+  
+  /* section */
+  .padded {
+    padding: 7.5rem;
+  }
+  
+  #about {
+    background-color: #E3CFCF;
+  }
+  
+  .container {
+    max-width: 70%;
+    margin: auto;
+  }
+
+/*CUBO*/
+.swiper-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    background-color: antiquewhite;
+} 
+.swiper-container2  .swiper-wrapper {
+    padding: 10rem;
+    margin-left: 100rem;
+  }  
+
+.swiper-container2 .swiper-slide {
+    background-size: cover !important;
+    box-sizing: border-box;
+    padding: 8em;
+    color: white;
+    margin: 2rem 0;
+    height: 500px;
+    width: 400px;
+
+}
+ .swiper-slide h1 {
+    font-size: 5em;
+    line-height: 1em;
+}
+ .swiper-slide p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 7em;
+}
+
+ .slide1 {
+    background: url("img/autoretrato.jpg");
+    object-fit: cover;
+}
+ .slide2 {
+    background: url("img/jardin.jpg");
+    
+}
+ .slide3 {
+    background: url("img/charlotte.jpg");
+    
+}
+ .slide4 {
+    background: url("img/flores.jpg");
+    
+}
+.swiper-pagination-bullet {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .swiper-container2  .swiper-wrapper {
+    padding: 5rem;
+    margin-left: 50rem;
+  }  
+
+}
+@media screen and (max-width: 800px) {
+  .swiper-container2  .swiper-wrapper {
+    padding: 5rem;
+    margin-left: 0rem;
+  }  
+
+}
+
+/*fin Cubo*/
+
+/*Cards*/       
+.swiper-container3 {
+    width: 600px;
+    height: 600px;
+    padding: 2rem 0;
+}
+
+.swiper-container3 .swiper-wrapper {
+    margin-left: 100%;
+    padding-bottom: 5rem;
+}
+
+.swiper-container3 .swiper-slide {
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-container3 .swiper-slide:nth-child(1n) {
+  background: url("img/ladies.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(2n) {
+  background: url("img/lamp.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(3n) {
+  background: url("img/le-gouterl.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(4n) {
+  background: url("img/malancolia.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(5n) {
+  background: url("img/pierre.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(6n) {
+  background: url("img/svres.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(7n) {
+  background: url("img/umbrellas.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(8n) {
+  background: url("img/son.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(9n) {
+  background: url("img/aspacia.jpg");
+}
+
+.swiper-container3 .swiper-slide:nth-child(10n) {
+  background: url("img/autoretrato2.jpg");
+}
+
+@media screen and (max-width: 1300px) {
+  .swiper-container3  .swiper-wrapper {
+    padding-bottom: 5rem;
+    margin-left: 50%;
+  }  
+}
+@media screen and (max-width: 800px) {
+  .swiper-container3  .swiper-wrapper {
+    padding-bottom: 5rem;
+    margin-left: 0;
+  } 
+}
+/*end Cubo*/
+
+/*Overflow*/
+  .swiper4 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aquamarine;
+  }
+
+  .swiper4 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+  }
+
+  .swiper4 .swiper-slide img {
+    display: block;
+    min-height: 10rem;
+  }
+/*end overflow*/
+
+/*Parallax*/
+  .swiper-container6 {
+    position: relative;
+    background-color: antiquewhite;
+    padding: 3rem; 
+  }
+
+    .swiper-wrapper {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .swiper-slide {
+      font-size: 18px;
+      color: #fff;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 40px 60px;
+    }
+    
+    .parallax-bg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 130%;
+      height: 100%;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center;
+    }
+    
+   .swiper-slide .title {
+      font-size: 41px;
+      font-weight: 300;
+      color: green;
+      margin-left: 10rem;
+    }
+    
+   .swiper-slide .subtitle {
+      font-size: 21px;
+      color: green;
+      margin-left: 10rem;
+    }
+    
+   .swiper-slide .text {
+      font-size: 14px;
+      max-width: 100%;
+      line-height: 1.5;
+      margin-left: 10rem ;
+    }
+ /*end parallax*/ 
+
+/* Footer */
+footer {
+  background-color: antiquewhite;
+  padding: 4rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+           
